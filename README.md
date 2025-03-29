@@ -5,7 +5,7 @@ This is a course project to learn how to align GPT2 using RLHF and DPO algorithm
 ## Installation
 ```bash
 pip install --upgrade transformers
-pip install datasets peft bitsandbytes trl==0.11.0
+pip install datasets peft bitsandbytes trl==0.12.1
 ```
 
 The human preferences dataset from Anthropic is applied in this repo as the dataset for all models introduced in this project.
