@@ -14,7 +14,7 @@ The human preferences dataset from Anthropic is applied in this repo as the data
 ```bash
 Step 1: python sft_training.py
 Step 2: python dpo_training.py
-Step 3: python rlhf_training.py
+Step 3: python reward_model_training.py
 Step 4: python ppo_training.py
-Step 5: run test.ipynb and check results.
+Step 5: run test.ipynb and compare results from different aligning methods, DPO and RLHF.
 ```
